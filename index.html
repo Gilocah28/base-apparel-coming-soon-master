@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+
+
+  <main>
+    <div class="container">
+      <img src="/images/logo.svg" alt="Base Apparel" class="logoHide">
+      <div class="textContainer">
+        <h1> <span class="we">We're</span> coming soon</h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+      </div>
+      <div class="inputContainer">
+        <input type="text" placeholder="Email Address" class="inputText"><button class="Submit"><img src="/images/icon-arrow.svg"alt="arrow"></button>
+        <div class="errorCon">
+          <img src="/images/icon-error.svg" alt="error" class="errorMessage">
+          <p class="errorText">Please provide a valid email</p>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="imageContainer">
+      <div class="logoCon">
+        <img src="/images/logo.svg" alt="Base Apparel" class="hide">
+      </div>
+      <picture>
+        <source srcset="/images/hero-mobile.jpg" media="(max-width:600px)">
+        <img src="/images/hero-desktop.jpg" alt="backGround" class="imageBackground">
+      </picture>
+    </div>
+  </main>
+
+
+  <div class="attribution"> 
+    Coded by <a href="https://github.com/Gilocah28" target="_blank" class="name">Gibermar P. Regalado</a>
+  </div>
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
